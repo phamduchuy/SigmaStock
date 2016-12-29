@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:id="@+id/lnItemHeader"
+              android:layout_width="match_parent"
+              android:weightSum="1"
+              android:layout_height="40dp">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:textColor="@color/color_Green_Material"
+            android:textSize="14sp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center_vertical"
+            android:text="Market"
+            android:textStyle="bold"
+            android:id="@+id/txtTitleHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+
+<!--   <LinearLayout
+       android:layout_marginRight="10dp"
+       android:gravity="center"
+       android:layout_width="30dp"
+       android:layout_height="match_parent">
+       <ImageView
+           android:id="@+id/imgView"
+           android:src="@drawable/icon_group_down"
+           android:layout_width="25dp"
+           android:layout_height="25dp" />
+   </LinearLayout>-->
+
+</LinearLayout>

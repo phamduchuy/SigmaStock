@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomStyleEditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/color_Gray_TextColor</item>
+        <item name="android:textColorHint">@color/color_Hint_TextColor</item>
+    </style>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_Green_Material</item>
+        <item name="colorPrimaryDark">@color/color_Green_Material</item>
+        <item name="colorAccent">@color/color_Green_Material</item>
+        <item name="android:textColor">@color/color_Black_Material</item>
+        <item name="android:editTextStyle">@style/CustomStyleEditText</item>
+        <item name="android:progressBarStyle">@style/CustomProcessBar</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomStyleEditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/color_Gray_TextColor</item>
+        <item name="android:textColorHint">@color/color_Hint_TextColor</item>
+        <item name="android:singleLine">true</item>
+        <item name="colorControlNormal">@color/color_Green_Material</item>
+        <item name="colorControlActivated">@color/color_Green_Material</item>
+        <item name="colorControlHighlight">@color/color_Green_Material</item>
+        <item name="android:editTextBackground">@drawable/edittext_bg</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+
+    </style>
+
+    <style name="CustomProcessBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress</item>
+
+    </style>
+</resources>
