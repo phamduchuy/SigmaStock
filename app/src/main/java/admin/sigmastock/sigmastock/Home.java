@@ -43,7 +43,6 @@ public class Home extends AppCompatActivity
     private ViewPager viewPager;
     List<CFragment> fragmentList;
     private TabLayout tabLayout;
-
     private static final String TAG = Home.class.getSimpleName();
     private BroadcastReceiver mRegistrationBroadcastReceiver;
     private TextView txtRegId, txtMessage;
@@ -53,6 +52,7 @@ public class Home extends AppCompatActivity
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
